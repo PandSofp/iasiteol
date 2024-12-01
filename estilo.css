@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #0044cc;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    
+    margin-bottom: 20px;
+    
+   
+}
+
+.sec{
+    background-color: #f2f2f2;
+    background-image: url('imagens/l\ \(1\).jfif'); /* Substitua pela URL da sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Ocupa 40% da altura da tela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+   
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0044cc;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #0044cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #003399;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.carousel-inner {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+.carousel-inner img {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    margin: 0 10px;
+    border-radius: 5px;
+    height: 240px;
+}
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-1600px); } /* Ajuste baseado no número de imagens */
+}
+P{
+    color: black;
+}
+h2{
+    color: blue;
+}

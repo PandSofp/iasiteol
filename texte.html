@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normas e Regulamentos Universitários</title>
+    <!-- Link do Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .background {
+            background-image: url('https://via.placeholder.com/1920x1080?text=Universidade'); /* Substitua pela URL da sua imagem */
+            background-size: cover;
+            background-position: center;
+            height: 40vh; /* Ocupa 40% da altura da tela */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Camada de sobreposição para melhorar a legibilidade do texto */
+        }
+        h1 {
+            position: relative;
+            z-index: 1; /* Coloca o texto acima da sobreposição */
+            font-size: 3em;
+            margin: 0;
+        }
+        p {
+            position: relative;
+            z-index: 1;
+            font-size: 1.5em;
+            margin: 10px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="background">
+    <div class="overlay"></div>
+    <h1>Bem-vindo à Nossa Universidade!</h1>
+    <p>Estamos aqui para ajudá-lo a entender as normas e regulamentos que garantem um ambiente acadêmico seguro e respeitoso.</p>
+</div>
+
+<div class="container text-center mt-5">
+    <h2 class="font-weight-bold">Normas e Regulamentos</h2>
+    <p>Na nossa universidade, acreditamos que um ambiente de aprendizado saudável é fundamental para o sucesso de todos. Aqui estão algumas diretrizes importantes:</p>
+    <ul class="list-unstyled">
+        <li>📚 <strong>Respeito mútuo</strong> entre alunos e professores.</li>
+        <li>🔍 <strong>Proibição de plágio</strong> e práticas desonestas.</li>
+        <li>🕒 <strong>Cumprimento dos horários</strong> das aulas e compromissos.</li>
+        <li>💻 <strong>Uso responsável</strong> dos recursos da universidade.</li>
+        <li>🤝 <strong>Participação ativa</strong> em atividades acadêmicas e sociais.</li>
+    </ul>
+    <p>Se você tiver alguma dúvida sobre as normas, não hesite em nos contatar!</p>
+</div>
+
+<!-- Link do Bootstrap JS e dependências (opcional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
