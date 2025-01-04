@@ -77,12 +77,21 @@ AACSB (Association to Advance Collegiate Schools of Business)
         </section>
     </main>
 
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+    
+        createChat({
+        "code": 404,
+        "message": "The requested webhook \"GET 8085c7d3-2517-4b66-98ee-9ffe29d2210a/chat\" is not registered.",
+        "hint": "The workflow must be active for a production URL to run successfully. You can activate the workflow using the toggle in the top-right of the editor. Note that unlike test URL calls, production URL calls aren't shown on the canvas (only in the executions list)"
+    });
+    </script>
     <footer>
         <p>&copy; 2023 Normas Universitárias. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
-    <script> window.chtlConfig = { chatbotId: "5571475423" } </script>
-<script async data-id="5571475423" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+
+    
 </body>
 </html>
